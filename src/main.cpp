@@ -20,6 +20,7 @@ void loop() {
   double delta_time = pulseIn(ECHO,HIGH);
   float detect_distance = delta_time * 0.0343/2;
   Serial.printf("distande = %f cm\n",detect_distance);
+  Serial.printf("HelloWorld");
   delay(100);
 
 }
